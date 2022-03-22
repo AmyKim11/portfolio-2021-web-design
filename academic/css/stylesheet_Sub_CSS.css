@@ -1,0 +1,268 @@
+*{
+     margin: 0;padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+
+li{display: inline;
+}
+
+
+/*-------header 부분--------*/
+
+
+
+header{
+     background: #d1dcea;
+     width: 100%;
+     height: 100px;   
+     position: fixed;
+     z-index: 20;
+
+     
+}
+
+.header_title{width: 208px;
+     float: left;
+     margin-left: 130px;
+     padding-top: 18px;
+     
+}
+
+
+
+
+
+
+nav{
+width: 95%;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+
+.header_gnb{
+     
+     background: royalblue;
+}
+
+.header_gnb ul{
+          text-align: right;
+
+          width: 300px;
+          height: 20px;
+          float: right;
+
+}
+
+.header_gnb ul li{
+     padding: 4px 20px;
+}
+
+.header_gnb ul li:last-child{
+     padding-right: 0;
+}
+
+.header_gnb ul a{
+     font-weight: 400;
+     color: #232323;
+}
+
+
+.header_lnb ul{
+     position: absolute;
+          display: block;
+          text-align: right;
+          padding-top: 18px;
+          top: 20px;
+          right: 0;
+}
+
+.header_lnb ul li{
+     padding: 4px 50px;
+}
+
+
+.header_lnb ul a{
+     font-size: 18px;
+     font-weight: 400;
+     color: #232323;
+     
+     
+}
+
+/*--------carousel영역---------*/
+
+.carousel_wrapper{
+     padding-top: 100px;
+}
+
+.carousel{
+     background: url('../images/sub_1.png') no-repeat;
+     background-position: center;
+     height: 320px;
+     padding: 70px 0 0 198px;
+}
+
+.carousel_text h2{
+     font-size: 40px;
+     color: #1a1a1a;
+     line-height: 90px;
+     
+}
+
+.dls{
+     color: #171aac;
+}
+
+
+/*--------Contents 영역---------*/
+
+.contents{
+     width: 80%;
+     margin: 0 auto;
+     margin-bottom: 140px;
+}
+
+.sub_button{
+     display: flex;
+     width: 80%;
+     padding-top: 55px;
+}
+
+.sub_button a:first-child{
+     margin-right: 30px;
+}
+
+.con_1{
+     margin-top: 47px;
+     background: url('../images/sub_pic_1.png') no-repeat;
+     background-size: 100%;
+     padding-top: 40px;
+     border-radius: 10px;
+}
+
+.con_1_img{
+     text-align: right;
+     padding-right: 60px;
+     padding-bottom: 40px;
+}
+
+
+.con_1_text{
+     width: 640px;
+     height: 300px;
+     background: #fff;
+     margin-left: 60px;
+     padding: 20px 0 0 20px;
+}
+
+.con_1_text h3{
+     font-size: 30px;
+     color: #171aac;
+}
+
+.con_1_text p{
+     padding-top: 50px;
+     font-size: 20px;
+}
+
+
+/*--------Con_2 영역---------*/
+
+.con_2{
+     margin-top: 67px;
+     background: url('../images/sub_pic_2.png') no-repeat;
+     background-size: 100%;
+     padding-top: 40px;
+     border-radius: 10px;
+}
+
+.con_2_img{
+     text-align: right;
+     padding-right: 60px;
+     padding-bottom: 40px;
+}
+
+
+.con_2_text{
+     width: 640px;
+     height: 300px;
+     background: #fff;
+     margin-left: 60px;
+     padding: 20px 0 0 20px;
+}
+
+.con_2_text h3{
+     font-size: 30px;
+     color: #171aac;
+}
+
+.con_2_text p{
+     padding-top: 50px;
+     font-size: 20px;
+}
+
+
+/*--------Con_3 영역---------*/
+
+.con_3{
+     margin-top: 67px;
+     background: url('../images/sub_pic_3.png') no-repeat;
+     background-size: 100%;
+     padding-top: 40px;
+     border-radius: 10px;
+}
+
+.con_3_img{
+     text-align: right;
+     padding-right: 60px;
+     padding-bottom: 40px;
+}
+
+
+.con_3_text{
+     width: 640px;
+     height: 300px;
+     background: #fff;
+     margin-left: 60px;
+     padding: 20px 0 0 20px;
+}
+
+.con_3_text h3{
+     font-size: 30px;
+     color: #171aac;
+}
+
+.con_3_text p{
+     padding-top: 50px;
+     font-size: 20px;
+}
+
+
+/*--------footer 영역---------*/
+footer{
+     background: #fafff9;
+     border-top: 1px solid lightgrey;
+     display: flex;
+     justify-content: space-around;
+}
+
+.footer_txt {
+     padding: 40px 0 40px 0;
+
+}
+
+.footer_txt p:nth-child(2){
+     padding: 22px 0 22px 0;
+}
+
+.sns{
+     padding-top: 80px;
+}
+
+.sns a:nth-child(2){
+     padding: 0 16px 0 16px;
+}
